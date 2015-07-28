@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: pinkertonpg
-  description: Ansible role for pip
+  description: Pip installer
   company: nowait
   license: license MIT
   min_ansible_version: 1.8
