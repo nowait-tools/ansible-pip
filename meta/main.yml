@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: pinkertonpg
+  description: Ansible role for pip
+  company: nowait
+  license: license MIT
+  min_ansible_version: 1.8
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: RedHat
+    versions:
+    - all
+  categories:
+  - system
+
+dependencies:

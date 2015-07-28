@@ -1,0 +1,12 @@
+---
+- name: Install pip (Debian)
+  apt:
+    name: python-pip
+    state: present
+  when: ansible_os_family == "Debian"
+
+- name: Install pip (RedHat)
+  yum:
+    name: python-pip
+    state: present
+  when: ansible_os_family == "RedHat"
