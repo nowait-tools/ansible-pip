@@ -1,5 +1,6 @@
 Pip
 =========
+pip installer
 
 Requirements
 ------------
@@ -9,8 +10,6 @@ Role Variables
 
 Example Playbook
 ----------------
-After pulling from galaxy:
-
         ---
         - hosts: all
           sudo: yes
