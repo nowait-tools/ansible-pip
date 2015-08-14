@@ -4,10 +4,12 @@
   apt:
     name: python-pip
     state: present
+    update_cache: "{{ update_cache }}"
   when: ansible_os_family == "Debian"
 
 - name: Install pip (RedHat)
   yum:
     name: python-pip
     state: present
+    update_cache: "{{ update_cache }}"
   when: ansible_os_family == "RedHat"

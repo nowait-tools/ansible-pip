@@ -8,6 +8,8 @@ Requirements
 Role Variables
 --------------
 
+      update_cache: yes
+
 Example Playbook
 ----------------
         ---
